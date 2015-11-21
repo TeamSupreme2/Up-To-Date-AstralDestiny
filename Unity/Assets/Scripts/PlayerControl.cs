@@ -85,7 +85,41 @@ public class PlayerControl : MonoBehaviour {
 		
 		Vector2 velocity = _rigidbody.velocity;
 
+<<<<<<< HEAD
 		if(_grounded)
+=======
+		if (_grounded) 
+		{
+			if (playerIndex == 0) 
+			{
+				animator.SetBool ("isJumping", false);
+				if (device.LeftBumper.WasPressed) 
+				{
+					velocity.y = jumpHeight;
+					animator.SetBool ("isJumping", true);
+					_grounded = false;
+				}
+			}
+			if (device.LeftStickX.Value < -0.1) 
+			{
+				velocity.x = -moveSpeed; 
+				animator.SetBool ("isWalking", _grounded);
+				transform.rotation = Quaternion.Euler (0, 180, 0);
+			} 
+			else if (device.LeftStickX.Value > 0.1) 
+			{
+				velocity.x = moveSpeed;
+				animator.SetBool ("isWalking", _grounded);
+				transform.rotation = Quaternion.Euler (0, 0, 0);
+			} 
+			else 
+			{
+				animator.SetBool ("isWalking", _grounded = false);
+			}
+			_rigidbody.velocity = velocity;
+		} 
+		else if (playerIndex == 1) 
+>>>>>>> origin/master
 		{
 			animator.SetBool("isJumping", false);
 			if (device.LeftBumper.WasPressed)
@@ -99,19 +133,31 @@ public class PlayerControl : MonoBehaviour {
 		{
 			velocity.x = -moveSpeed; 
 			animator.SetBool("isWalking", _grounded);
+<<<<<<< HEAD
 			transform.rotation = Quaternion.Euler (0, 180, 0);
+=======
+			transform.rotation = Quaternion.Euler (0, 0, 0);
+>>>>>>> origin/master
 		}
 		else if (device.LeftStickX.Value > 0.1)
 		{
 			velocity.x = moveSpeed;
 			animator.SetBool("isWalking", _grounded);
+<<<<<<< HEAD
 			transform.rotation = Quaternion.Euler (0, 0, 0);
+=======
+			transform.rotation = Quaternion.Euler (0, 180, 0);
+>>>>>>> origin/master
 		}
 		else
 		{
 			animator.SetBool("isWalking", _grounded = false);
 		}
 		_rigidbody.velocity = velocity;
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/master
 	}
 
 	//Pickups

@@ -1,0 +1,626 @@
+fileFormatVersion: 2
+guid: 217b17f85fefc4c4cab411d342c1e1aa
+timeCreated: 1446169979
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: back
+    100002: body_01_jnt
+    100004: body_02_jnt
+    100006: body_ctrl
+    100008: body_ctrl_grp
+    100010: body_end
+    100012: bottom
+    100014: //RootNode
+    100016: gun_L_ctrl
+    100018: gun_L_ctrl_grp
+    100020: gun_L_end
+    100022: gun_L_jnt1
+    100024: gun_R_ctrl
+    100026: gun_R_ctrl_grp
+    100028: gun_R_end
+    100030: gun_R_jnt
+    100032: left
+    100034: leg_B_L_01_jnt
+    100036: leg_B_L_02_ctrl
+    100038: leg_B_L_02_ctrl_grp
+    100040: leg_B_L_02_jnt
+    100042: leg_B_L_03_ctrl
+    100044: leg_B_L_03_ctrl_grp
+    100046: leg_B_L_03_jnt
+    100048: leg_B_L_ctrl
+    100050: leg_B_L_ctrl_grp
+    100052: leg_B_L_end
+    100054: leg_B_R_01_jnt1
+    100056: leg_B_R_02_ctrl
+    100058: leg_B_R_02_ctrl_grp
+    100060: leg_B_R_02_jnt
+    100062: leg_B_R_03_ctrl
+    100064: leg_B_R_03_ctrl_grp
+    100066: leg_B_R_03_jnt
+    100068: leg_B_R_ctrl
+    100070: leg_B_R_ctrl_grp
+    100072: leg_B_R_end
+    100074: leg_F_L_01_jnt1
+    100076: leg_F_L_02_ctrl
+    100078: leg_F_L_02_ctrl_grp
+    100080: leg_F_L_02_jnt
+    100082: leg_F_L_03_ctrl
+    100084: leg_F_L_03_ctrl_grp
+    100086: leg_F_L_03_jnt
+    100088: leg_F_L_ctrl
+    100090: leg_F_L_ctrl_grp
+    100092: leg_F_L_end
+    100094: leg_F_R_01_jnt
+    100096: leg_F_R_02_ctrl
+    100098: leg_F_R_02_ctrl_grp
+    100100: leg_F_R_02_jnt
+    100102: leg_F_R_03_ctrl
+    100104: leg_F_R_03_ctrl_grp
+    100106: leg_F_R_03_jnt
+    100108: leg_F_R_ctrl
+    100110: leg_F_R_ctrl_grp
+    100112: leg_F_R_end
+    100114: pCube1
+    100116: pCube2
+    100118: pCube6
+    100120: pCylinder3
+    100122: persp1
+    100124: polySurface1
+    100126: polySurface10
+    100128: polySurface11
+    100130: polySurface12
+    100132: polySurface13
+    100134: polySurface14
+    100136: polySurface16
+    100138: polySurface17
+    100140: polySurface4
+    100142: polySurface5
+    100144: polySurface6
+    100146: polySurface8
+    100148: polySurface9
+    100150: root_ctrl
+    100152: root_ctrl_grp
+    100154: root_jnt
+    400000: back
+    400002: body_01_jnt
+    400004: body_02_jnt
+    400006: body_ctrl
+    400008: body_ctrl_grp
+    400010: body_end
+    400012: bottom
+    400014: //RootNode
+    400016: gun_L_ctrl
+    400018: gun_L_ctrl_grp
+    400020: gun_L_end
+    400022: gun_L_jnt1
+    400024: gun_R_ctrl
+    400026: gun_R_ctrl_grp
+    400028: gun_R_end
+    400030: gun_R_jnt
+    400032: left
+    400034: leg_B_L_01_jnt
+    400036: leg_B_L_02_ctrl
+    400038: leg_B_L_02_ctrl_grp
+    400040: leg_B_L_02_jnt
+    400042: leg_B_L_03_ctrl
+    400044: leg_B_L_03_ctrl_grp
+    400046: leg_B_L_03_jnt
+    400048: leg_B_L_ctrl
+    400050: leg_B_L_ctrl_grp
+    400052: leg_B_L_end
+    400054: leg_B_R_01_jnt1
+    400056: leg_B_R_02_ctrl
+    400058: leg_B_R_02_ctrl_grp
+    400060: leg_B_R_02_jnt
+    400062: leg_B_R_03_ctrl
+    400064: leg_B_R_03_ctrl_grp
+    400066: leg_B_R_03_jnt
+    400068: leg_B_R_ctrl
+    400070: leg_B_R_ctrl_grp
+    400072: leg_B_R_end
+    400074: leg_F_L_01_jnt1
+    400076: leg_F_L_02_ctrl
+    400078: leg_F_L_02_ctrl_grp
+    400080: leg_F_L_02_jnt
+    400082: leg_F_L_03_ctrl
+    400084: leg_F_L_03_ctrl_grp
+    400086: leg_F_L_03_jnt
+    400088: leg_F_L_ctrl
+    400090: leg_F_L_ctrl_grp
+    400092: leg_F_L_end
+    400094: leg_F_R_01_jnt
+    400096: leg_F_R_02_ctrl
+    400098: leg_F_R_02_ctrl_grp
+    400100: leg_F_R_02_jnt
+    400102: leg_F_R_03_ctrl
+    400104: leg_F_R_03_ctrl_grp
+    400106: leg_F_R_03_jnt
+    400108: leg_F_R_ctrl
+    400110: leg_F_R_ctrl_grp
+    400112: leg_F_R_end
+    400114: pCube1
+    400116: pCube2
+    400118: pCube6
+    400120: pCylinder3
+    400122: persp1
+    400124: polySurface1
+    400126: polySurface10
+    400128: polySurface11
+    400130: polySurface12
+    400132: polySurface13
+    400134: polySurface14
+    400136: polySurface16
+    400138: polySurface17
+    400140: polySurface4
+    400142: polySurface5
+    400144: polySurface6
+    400146: polySurface8
+    400148: polySurface9
+    400150: root_ctrl
+    400152: root_ctrl_grp
+    400154: root_jnt
+    4300000: pCube1
+    4300002: pCube2
+    4300004: pCylinder3
+    4300006: polySurface1
+    4300008: polySurface4
+    4300010: polySurface5
+    4300012: polySurface6
+    4300014: polySurface8
+    4300016: polySurface9
+    4300018: polySurface10
+    4300020: polySurface12
+    4300022: polySurface13
+    4300024: polySurface14
+    4300026: polySurface16
+    4300028: polySurface17
+    4300030: polySurface11
+    7400000: Walking
+    7400002: Idle
+    9500000: //RootNode
+    13700000: pCube1
+    13700002: pCube2
+    13700004: pCylinder3
+    13700006: polySurface1
+    13700008: polySurface10
+    13700010: polySurface11
+    13700012: polySurface12
+    13700014: polySurface13
+    13700016: polySurface14
+    13700018: polySurface16
+    13700020: polySurface17
+    13700022: polySurface4
+    13700024: polySurface5
+    13700026: polySurface6
+    13700028: polySurface8
+    13700030: polySurface9
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walking
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 23
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/polySurface1
+        weight: 1
+      - path: pCube6/polySurface4
+        weight: 1
+      - path: pCube6/polySurface5
+        weight: 1
+      - path: pCube6/polySurface6
+        weight: 1
+      - path: pCube6/polySurface8
+        weight: 1
+      - path: pCube6/polySurface9
+        weight: 1
+      - path: pCube6/polySurface10
+        weight: 1
+      - path: pCube6/polySurface12
+        weight: 1
+      - path: pCube6/polySurface13
+        weight: 1
+      - path: pCube6/polySurface14
+        weight: 1
+      - path: pCube6/polySurface16
+        weight: 1
+      - path: pCube6/polySurface17
+        weight: 1
+      - path: pCylinder3
+        weight: 1
+      - path: persp1
+        weight: 1
+      - path: polySurface11
+        weight: 1
+      - path: root_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/body_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp/gun_L_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp/gun_L_ctrl/gun_L_jnt1
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp/gun_L_ctrl/gun_L_jnt1/gun_L_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp/gun_R_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp/gun_R_ctrl/gun_R_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp/gun_R_ctrl/gun_R_jnt/gun_R_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp/leg_B_L_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp/leg_B_L_03_ctrl/leg_B_L_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp/leg_B_L_03_ctrl/leg_B_L_03_jnt/leg_B_L_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp/leg_B_R_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp/leg_B_R_03_ctrl/leg_B_R_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp/leg_B_R_03_ctrl/leg_B_R_03_jnt/leg_B_R_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp/leg_F_L_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp/leg_F_L_03_ctrl/leg_F_L_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp/leg_F_L_03_ctrl/leg_F_L_03_jnt/leg_F_L_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp/leg_F_R_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp/leg_F_R_03_ctrl/leg_F_R_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp/leg_F_R_03_ctrl/leg_F_R_03_jnt/leg_F_R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: back
+        weight: 1
+      - path: bottom
+        weight: 1
+      - path: left
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube2
+        weight: 1
+      - path: pCube6
+        weight: 1
+      - path: pCube6/polySurface1
+        weight: 1
+      - path: pCube6/polySurface4
+        weight: 1
+      - path: pCube6/polySurface5
+        weight: 1
+      - path: pCube6/polySurface6
+        weight: 1
+      - path: pCube6/polySurface8
+        weight: 1
+      - path: pCube6/polySurface9
+        weight: 1
+      - path: pCube6/polySurface10
+        weight: 1
+      - path: pCube6/polySurface12
+        weight: 1
+      - path: pCube6/polySurface13
+        weight: 1
+      - path: pCube6/polySurface14
+        weight: 1
+      - path: pCube6/polySurface16
+        weight: 1
+      - path: pCube6/polySurface17
+        weight: 1
+      - path: pCylinder3
+        weight: 1
+      - path: persp1
+        weight: 1
+      - path: polySurface11
+        weight: 1
+      - path: root_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/body_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp/gun_L_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp/gun_L_ctrl/gun_L_jnt1
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_L_ctrl_grp/gun_L_ctrl/gun_L_jnt1/gun_L_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp/gun_R_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp/gun_R_ctrl/gun_R_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/body_ctrl_grp/body_ctrl/body_01_jnt/body_02_jnt/gun_R_ctrl_grp/gun_R_ctrl/gun_R_jnt/gun_R_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp/leg_B_L_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp/leg_B_L_03_ctrl/leg_B_L_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_L_ctrl_grp/leg_B_L_ctrl/leg_B_L_01_jnt/leg_B_L_02_ctrl_grp/leg_B_L_02_ctrl/leg_B_L_02_jnt/leg_B_L_03_ctrl_grp/leg_B_L_03_ctrl/leg_B_L_03_jnt/leg_B_L_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp/leg_B_R_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp/leg_B_R_03_ctrl/leg_B_R_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_B_R_ctrl_grp/leg_B_R_ctrl/leg_B_R_01_jnt1/leg_B_R_02_ctrl_grp/leg_B_R_02_ctrl/leg_B_R_02_jnt/leg_B_R_03_ctrl_grp/leg_B_R_03_ctrl/leg_B_R_03_jnt/leg_B_R_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp/leg_F_L_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp/leg_F_L_03_ctrl/leg_F_L_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_L_ctrl_grp/leg_F_L_ctrl/leg_F_L_01_jnt1/leg_F_L_02_ctrl_grp/leg_F_L_02_ctrl/leg_F_L_02_jnt/leg_F_L_03_ctrl_grp/leg_F_L_03_ctrl/leg_F_L_03_jnt/leg_F_L_end
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp/leg_F_R_03_ctrl
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp/leg_F_R_03_ctrl/leg_F_R_03_jnt
+        weight: 1
+      - path: root_ctrl_grp/root_ctrl/root_jnt/leg_F_R_ctrl_grp/leg_F_R_ctrl/leg_F_R_01_jnt/leg_F_R_02_ctrl_grp/leg_F_R_02_ctrl/leg_F_R_02_jnt/leg_F_R_03_ctrl_grp/leg_F_R_03_ctrl/leg_F_R_03_jnt/leg_F_R_end
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
