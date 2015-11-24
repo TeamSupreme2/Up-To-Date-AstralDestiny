@@ -4,7 +4,8 @@ using System.Collections;
 public class MissleMovement : MonoBehaviour {
 	public int missileSpeed;
 	public int damagePerShot = 15;
-	
+	public GameObject rocketExplosion;
+
 	private Rigidbody2D rb;
 	//private PlayerHealth playerHealth;
 	// Use this for initialization
@@ -17,6 +18,7 @@ public class MissleMovement : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
+		Camera.main.transform.Translate (new Vector3 (Mathf.Sin (Time.time * 8) * Time.deltaTime, 0, 0));
 		if(collision.gameObject.tag == "Player 2" || collision.gameObject.tag == "Player 1")
 		{
 			GameObject otherPlayer = collision.transform.gameObject;
@@ -27,7 +29,9 @@ public class MissleMovement : MonoBehaviour {
 				other.TakeDamage(damagePerShot);
 			}
 		}
-		Destroy(this.gameObject);
+		GameObject.Instantiate(Resources.Load<GameObject>("RocketExplosion"), transform.position, transform.rotation);
+
+		Destroy (this.gameObject);
 	}
 	// Update is called once per frame
 	void Update () 

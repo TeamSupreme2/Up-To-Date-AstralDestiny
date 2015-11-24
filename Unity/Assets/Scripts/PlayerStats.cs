@@ -14,6 +14,7 @@ public class PlayerStats : MonoBehaviour {
 	public Transform destination;
 	public GameObject PowerPU;
 	public GameObject missile;
+	public float deathTimer;
 
     PlayerControl playerMovement;
     WeaponFire playerShooting;
@@ -28,6 +29,8 @@ public class PlayerStats : MonoBehaviour {
 
         currentHealth = startingHealth;
 		currentPower = startingPower;
+
+		deathTimer = Time.deltaTime;
     }
 
     // Update is called once per frame
@@ -42,9 +45,10 @@ public class PlayerStats : MonoBehaviour {
 			PowerPU.SetActive(true);
 		}
 
-		if (lives == 0) 
+		if (lives <= 0) 
 		{
 			Death();
+
 		}
 
 		if (currentPower == 5) 
@@ -81,16 +85,9 @@ public class PlayerStats : MonoBehaviour {
 		healthSlider.value = currentHealth;
 	}
 
-	//when power slider is full, light it up
-	public void PowerLightUp()
-	{
-		if (powerSlider.value == 5) 
-		{
-		}
-	}
-
     void Death()
     {
+		//animator.SetBool("isDead", true);
         //isDead = true;
 		//PowerTokenSpawn = true;
         playerMovement.enabled = false;
@@ -101,6 +98,7 @@ public class PlayerStats : MonoBehaviour {
 
 	void Respawn()
 	{
+		//animator.SetBool("isDead", false);
 		playerMovement.enabled = true;
 		playerShooting.enabled = true;
 
@@ -108,6 +106,8 @@ public class PlayerStats : MonoBehaviour {
 		healthSlider.value = currentHealth;
 		currentPower = startingPower;
 		powerSlider.value = currentPower;
+
+		GameObject.Instantiate(Resources.Load<GameObject>("bulwarkSpawnSparks"), transform.position, transform.rotation);
 	}
 
 	void MissileSpawn(GameObject other)

@@ -12,5 +12,6 @@ public class PickUpRotate : MonoBehaviour {
 	void Update () 
 	{
 		transform.Rotate (new Vector3 (0, 20, 0) * Time.deltaTime * 6);
+		transform.Translate (new Vector3 (0, Mathf.Sin (Time.time * 8), 0) * 0.001f) ;
 	}
 }

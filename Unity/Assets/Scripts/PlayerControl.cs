@@ -42,7 +42,7 @@ public class PlayerControl : MonoBehaviour {
 		{
 			healthTimer += Time.deltaTime;
 
-			if (healthTimer > 3.0f) 
+			if (healthTimer > 15.0f) 
 			{
 				healthPU.SetActive(true);
 				healthTimer = 0.0f;
@@ -53,7 +53,7 @@ public class PlayerControl : MonoBehaviour {
 		{
 			ammoTimer += Time.deltaTime;
 
-			if(ammoTimer > 3.0f)
+			if(ammoTimer > 8.0f)
 			{
 				ammoPU.SetActive(true);
 				ammoTimer = 0.0f;
@@ -72,92 +72,49 @@ public class PlayerControl : MonoBehaviour {
 
 		
 		_grounded = false;
+		animator.SetBool("isGrounded", false);
 		RaycastHit2D[] Hits =
 			Physics2D.CircleCastAll(transform.position, 0.01f + 0.01f, Vector2.down, 0.1f);
 		
 		foreach(RaycastHit2D hit in Hits)
 		{
-			if(hit.normal.y > 0.1f && hit.rigidbody != _rigidbody)
+			if(hit.normal.y > 0.01f && hit.rigidbody != _rigidbody)
 			{
+				animator.SetBool("isGrounded", true);
 				_grounded = true;
+
 			}
 		}
 		
 		Vector2 velocity = _rigidbody.velocity;
-
-<<<<<<< HEAD
-		if(_grounded)
-=======
-		if (_grounded) 
-		{
-			if (playerIndex == 0) 
-			{
-				animator.SetBool ("isJumping", false);
-				if (device.LeftBumper.WasPressed) 
-				{
-					velocity.y = jumpHeight;
-					animator.SetBool ("isJumping", true);
-					_grounded = false;
-				}
-			}
-			if (device.LeftStickX.Value < -0.1) 
-			{
-				velocity.x = -moveSpeed; 
-				animator.SetBool ("isWalking", _grounded);
-				transform.rotation = Quaternion.Euler (0, 180, 0);
-			} 
-			else if (device.LeftStickX.Value > 0.1) 
-			{
-				velocity.x = moveSpeed;
-				animator.SetBool ("isWalking", _grounded);
-				transform.rotation = Quaternion.Euler (0, 0, 0);
-			} 
-			else 
-			{
-				animator.SetBool ("isWalking", _grounded = false);
-			}
-			_rigidbody.velocity = velocity;
-		} 
-		else if (playerIndex == 1) 
->>>>>>> origin/master
-		{
-			animator.SetBool("isJumping", false);
-			if (device.LeftBumper.WasPressed)
-			{
-				velocity.y = jumpHeight;
-				animator.SetBool("isJumping", true);
-				_grounded = false;
-			}
-		}
-		if(device.LeftStickX.Value < -0.1)
+		animator.SetBool ("isJumping", false);
+		if (device.LeftStickX.Value < -0.1) 
 		{
 			velocity.x = -moveSpeed; 
-			animator.SetBool("isWalking", _grounded);
-<<<<<<< HEAD
+			animator.SetBool ("isWalking", true);
 			transform.rotation = Quaternion.Euler (0, 180, 0);
-=======
-			transform.rotation = Quaternion.Euler (0, 0, 0);
->>>>>>> origin/master
-		}
-		else if (device.LeftStickX.Value > 0.1)
+		} 
+		else if (device.LeftStickX.Value > 0.1) 
 		{
 			velocity.x = moveSpeed;
-			animator.SetBool("isWalking", _grounded);
-<<<<<<< HEAD
+			animator.SetBool ("isWalking", true);
 			transform.rotation = Quaternion.Euler (0, 0, 0);
-=======
-			transform.rotation = Quaternion.Euler (0, 180, 0);
->>>>>>> origin/master
-		}
-		else
+		} 
+		else 
 		{
-			animator.SetBool("isWalking", _grounded = false);
+			animator.SetBool ("isWalking", _grounded = false);
+		}
+		if (_grounded) 
+		{
+			if (device.LeftBumper.WasPressed) 
+			{
+				velocity.y = jumpHeight;
+				animator.SetBool ("isJumping", true);
+				GameObject.Instantiate (Resources.Load<GameObject> ("bulwarkLandingPuff"), transform.position, transform.rotation);
+					_grounded = false;
+			}
 		}
 		_rigidbody.velocity = velocity;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
 	}
 
 	//Pickups

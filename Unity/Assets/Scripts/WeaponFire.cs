@@ -60,7 +60,7 @@ public class WeaponFire : MonoBehaviour {
         {
             Shoot();
 			transform.forward = new Vector3 (aimPosition.x, aimPosition.y, 0) - transform.position;
-			Instantiate (projectile, firePointPosition + (aimPosition /2), Quaternion.LookRotation(aimPosition));
+			Instantiate (projectile, firePointPosition + (aimPosition/2), Quaternion.LookRotation(aimPosition)); 
 
 			ammo = ammo - 1;
 			SetCountText();

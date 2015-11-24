@@ -128,6 +128,10 @@ ModelImporter:
     100240: stand_R_01_jnt
     100242: stand_R_02_jnt
     100244: stand_R_end
+    100246: polySurface71
+    100248: polySurface72
+    100250: polySurface73
+    100252: polySurface74
     400000: bulwark_FullAnim_UVed:back
     400002: bulwark_FullAnim_UVed:body_01_jnt
     400004: bulwark_FullAnim_UVed:body_02_jnt
@@ -251,6 +255,10 @@ ModelImporter:
     400240: stand_R_01_jnt
     400242: stand_R_02_jnt
     400244: stand_R_end
+    400246: polySurface71
+    400248: polySurface72
+    400250: polySurface73
+    400252: polySurface74
     2300000: polySurface36
     3300000: polySurface36
     4300000: bulwark_FullAnim_UVed:polySurface19
@@ -278,11 +286,21 @@ ModelImporter:
     4300044: polySurface54
     4300046: polySurface58
     4300048: polySurface55
+    4300050: polySurface73
+    4300052: polySurface72
+    4300054: polySurface74
+    4300056: polySurface71
     7400000: NewBulwarkAnim
     7400002: Walk
     7400004: Idle
     7400006: Jump(Up)
     7400008: Jump(Down)
+    7400010: Shoot
+    7400012: PickUpSuper
+    7400014: ShootSuper
+    7400016: Death
+    7400018: Landing
+    7400020: Jump(Full)
     9500000: //RootNode
     13700000: bulwark_FullAnim_UVed:polySurface18
     13700002: bulwark_FullAnim_UVed:polySurface19
@@ -308,6 +326,10 @@ ModelImporter:
     13700042: polySurface58
     13700044: polySurface63
     13700046: polySurface67
+    13700048: polySurface71
+    13700050: polySurface72
+    13700052: polySurface73
+    13700054: polySurface74
   materials:
     importMaterials: 1
     materialName: 0
@@ -332,7 +354,7 @@ ModelImporter:
       name: NewBulwarkAnim
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 180
+      lastFrame: 224
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -886,11 +908,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
-<<<<<<< HEAD
-      loopTime: 0
-=======
       loopTime: 1
->>>>>>> origin/master
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -1431,8 +1449,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump(Down)
       takeName: Take 001
-      firstFrame: 118
-      lastFrame: 130
+      firstFrame: 112
+      lastFrame: 118
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -1687,6 +1705,1278 @@ ModelImporter:
       - path: polySurface35
         weight: 1
       - path: polySurface35/polySurface36
+        weight: 1
+      - path: polySurface54
+        weight: 1
+      - path: polySurface55
+        weight: 1
+      - path: polySurface57
+        weight: 1
+      - path: polySurface58
+        weight: 1
+      - path: polySurface63
+        weight: 1
+      - path: polySurface67
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1/bulwark_FullAnim_UVed:transform6
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface19
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface20
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface21
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface22
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface23
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface24
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface25
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface26
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface27
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface28
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface29
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface30
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31/bulwark_FullAnim_UVed:transform2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32/bulwark_FullAnim_UVed:transform3
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33/bulwark_FullAnim_UVed:transform4
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34/bulwark_FullAnim_UVed:transform5
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface35
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:transform1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface18
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73/polySurface72
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74/polySurface71
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:body_end
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt/stand_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt/stand_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl/bulwark_FullAnim_UVed:leg_B_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl/bulwark_FullAnim_UVed:leg_B_R_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl/bulwark_FullAnim_UVed:leg_F_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl/bulwark_FullAnim_UVed:leg_F_R_03_jnt
+        weight: 1
+      - path: polySurface54
+        weight: 1
+      - path: polySurface55
+        weight: 1
+      - path: polySurface57
+        weight: 1
+      - path: polySurface58
+        weight: 1
+      - path: polySurface63
+        weight: 1
+      - path: polySurface67
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: PickUpSuper
+      takeName: Take 001
+      firstFrame: 175
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1/bulwark_FullAnim_UVed:transform6
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface19
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface20
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface21
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface22
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface23
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface24
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface25
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface26
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface27
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface28
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface29
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface30
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31/bulwark_FullAnim_UVed:transform2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32/bulwark_FullAnim_UVed:transform3
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33/bulwark_FullAnim_UVed:transform4
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34/bulwark_FullAnim_UVed:transform5
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface35
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:transform1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface18
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73/polySurface72
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74/polySurface71
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:body_end
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt/stand_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt/stand_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl/bulwark_FullAnim_UVed:leg_B_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl/bulwark_FullAnim_UVed:leg_B_R_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl/bulwark_FullAnim_UVed:leg_F_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl/bulwark_FullAnim_UVed:leg_F_R_03_jnt
+        weight: 1
+      - path: polySurface54
+        weight: 1
+      - path: polySurface55
+        weight: 1
+      - path: polySurface57
+        weight: 1
+      - path: polySurface58
+        weight: 1
+      - path: polySurface63
+        weight: 1
+      - path: polySurface67
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: ShootSuper
+      takeName: Take 001
+      firstFrame: 183
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1/bulwark_FullAnim_UVed:transform6
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface19
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface20
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface21
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface22
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface23
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface24
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface25
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface26
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface27
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface28
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface29
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface30
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31/bulwark_FullAnim_UVed:transform2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32/bulwark_FullAnim_UVed:transform3
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33/bulwark_FullAnim_UVed:transform4
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34/bulwark_FullAnim_UVed:transform5
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface35
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:transform1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface18
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73/polySurface72
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74/polySurface71
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:body_end
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt/stand_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt/stand_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl/bulwark_FullAnim_UVed:leg_B_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl/bulwark_FullAnim_UVed:leg_B_R_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl/bulwark_FullAnim_UVed:leg_F_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl/bulwark_FullAnim_UVed:leg_F_R_03_jnt
+        weight: 1
+      - path: polySurface54
+        weight: 1
+      - path: polySurface55
+        weight: 1
+      - path: polySurface57
+        weight: 1
+      - path: polySurface58
+        weight: 1
+      - path: polySurface63
+        weight: 1
+      - path: polySurface67
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Death
+      takeName: Take 001
+      firstFrame: 215
+      lastFrame: 224
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1/bulwark_FullAnim_UVed:transform6
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface19
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface20
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface21
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface22
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface23
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface24
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface25
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface26
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface27
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface28
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface29
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface30
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31/bulwark_FullAnim_UVed:transform2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32/bulwark_FullAnim_UVed:transform3
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33/bulwark_FullAnim_UVed:transform4
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34/bulwark_FullAnim_UVed:transform5
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface35
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:transform1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface18
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73/polySurface72
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74/polySurface71
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:body_end
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt/stand_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt/stand_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl/bulwark_FullAnim_UVed:leg_B_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl/bulwark_FullAnim_UVed:leg_B_R_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl/bulwark_FullAnim_UVed:leg_F_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl/bulwark_FullAnim_UVed:leg_F_R_03_jnt
+        weight: 1
+      - path: polySurface54
+        weight: 1
+      - path: polySurface55
+        weight: 1
+      - path: polySurface57
+        weight: 1
+      - path: polySurface58
+        weight: 1
+      - path: polySurface63
+        weight: 1
+      - path: polySurface67
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Landing
+      takeName: Take 001
+      firstFrame: 118
+      lastFrame: 126
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1/bulwark_FullAnim_UVed:transform6
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface19
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface20
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface21
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface22
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface23
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface24
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface25
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface26
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface27
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface28
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface29
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface30
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31/bulwark_FullAnim_UVed:transform2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32/bulwark_FullAnim_UVed:transform3
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33/bulwark_FullAnim_UVed:transform4
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34/bulwark_FullAnim_UVed:transform5
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface35
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:transform1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface18
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73/polySurface72
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74/polySurface71
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:body_end
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt/stand_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt/stand_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl/bulwark_FullAnim_UVed:leg_B_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl/bulwark_FullAnim_UVed:leg_B_R_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl/bulwark_FullAnim_UVed:leg_F_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl/bulwark_FullAnim_UVed:leg_F_R_03_jnt
+        weight: 1
+      - path: polySurface54
+        weight: 1
+      - path: polySurface55
+        weight: 1
+      - path: polySurface57
+        weight: 1
+      - path: polySurface58
+        weight: 1
+      - path: polySurface63
+        weight: 1
+      - path: polySurface67
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump(Full)
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 126
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface18
+          1/bulwark_FullAnim_UVed:transform6
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface19
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface20
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface21
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface22
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface23
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface24
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface25
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface26
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface27
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface28
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface29
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface30
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface31/bulwark_FullAnim_UVed:transform2
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface32/bulwark_FullAnim_UVed:transform3
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface33/bulwark_FullAnim_UVed:transform4
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface34/bulwark_FullAnim_UVed:transform5
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:polySurface35
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface2/bulwark_FullAnim_UVed:transform1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface18
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface73/polySurface72
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74
+        weight: 1
+      - path: bulwark_FullAnim_UVed:polySurface36/polySurface74/polySurface71
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:body_end
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_L_ctrl_grp/bulwark_FullAnim_UVed:gun_L_ctrl/bulwark_FullAnim_UVed:gun_L_jnt/stand_L_01_jnt/stand_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:body_ctrl_grp/bulwark_FullAnim_UVed:body_ctrl/bulwark_FullAnim_UVed:body_01_jnt/bulwark_FullAnim_UVed:body_02_jnt/bulwark_FullAnim_UVed:gun_R_ctrl_grp/bulwark_FullAnim_UVed:gun_R_ctrl/bulwark_FullAnim_UVed:gun_R_jnt/stand_R_01_jnt/stand_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_L_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_ctrl/bulwark_FullAnim_UVed:leg_B_L_01_jnt/bulwark_FullAnim_UVed:leg_B_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_02_ctrl/bulwark_FullAnim_UVed:leg_B_L_02_jnt/bulwark_FullAnim_UVed:leg_B_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_L_03_ctrl/bulwark_FullAnim_UVed:leg_B_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_B_R_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_ctrl/bulwark_FullAnim_UVed:leg_B_R_01_jnt1/bulwark_FullAnim_UVed:leg_B_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_02_ctrl/bulwark_FullAnim_UVed:leg_B_R_02_jnt/bulwark_FullAnim_UVed:leg_B_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_B_R_03_ctrl/bulwark_FullAnim_UVed:leg_B_R_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_L_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_ctrl/bulwark_FullAnim_UVed:leg_F_L_01_jnt1/bulwark_FullAnim_UVed:leg_F_L_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_02_ctrl/bulwark_FullAnim_UVed:leg_F_L_02_jnt/bulwark_FullAnim_UVed:leg_F_L_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_L_03_ctrl/bulwark_FullAnim_UVed:leg_F_L_03_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl
+        weight: 1
+      - path: bulwark_FullAnim_UVed:root_ctrl_grp/bulwark_FullAnim_UVed:root_ctrl/bulwark_FullAnim_UVed:root_jnt/bulwark_FullAnim_UVed:leg_F_R_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_ctrl/bulwark_FullAnim_UVed:leg_F_R_01_jnt/bulwark_FullAnim_UVed:leg_F_R_02_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_02_ctrl/bulwark_FullAnim_UVed:leg_F_R_02_jnt/bulwark_FullAnim_UVed:leg_F_R_03_ctrl_grp/bulwark_FullAnim_UVed:leg_F_R_03_ctrl/bulwark_FullAnim_UVed:leg_F_R_03_jnt
         weight: 1
       - path: polySurface54
         weight: 1

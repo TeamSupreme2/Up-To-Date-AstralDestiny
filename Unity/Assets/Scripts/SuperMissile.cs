@@ -4,6 +4,7 @@ using System.Collections;
 public class SuperMissile : MonoBehaviour {
 	public int missileSpeed;
 	public int damagePerShot = 90;
+	public GameObject superExplosion;
 
 	private Rigidbody2D rb;
 	// Use this for initialization
@@ -24,6 +25,9 @@ public class SuperMissile : MonoBehaviour {
 				other.TakeDamage(damagePerShot);
 			}
 		}
+
+		GameObject.Instantiate(Resources.Load<GameObject>("SuperExplosion"), transform.position, transform.rotation);
+
 		Destroy(this.gameObject);
 	}
 	// Update is called once per frame
