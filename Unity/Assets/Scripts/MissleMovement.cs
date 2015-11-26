@@ -18,7 +18,6 @@ public class MissleMovement : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D collision)
 	{
-		Camera.main.transform.Translate (new Vector3 (Mathf.Sin (Time.time * 8) * Time.deltaTime, 0, 0));
 		if(collision.gameObject.tag == "Player 2" || collision.gameObject.tag == "Player 1")
 		{
 			GameObject otherPlayer = collision.transform.gameObject;
@@ -36,6 +35,6 @@ public class MissleMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		rb.AddForce (transform.forward * missileSpeed, ForceMode2D.Force);
+		rb.AddForce (transform.forward * missileSpeed, ForceMode2D.Impulse);
 	}
 }

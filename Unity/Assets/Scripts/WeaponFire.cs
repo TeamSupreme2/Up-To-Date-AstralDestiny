@@ -49,8 +49,12 @@ public class WeaponFire : MonoBehaviour {
 		DrawLine ();
 		if (device.RightStickX.Value >= 0.1 || device.RightStickY.Value >= 0.1 || device.RightStickX.Value <= -0.1 || device.RightStickY.Value <= -0.1) 
 		{
-			aimPosition = new Vector2 (device.RightStick.Vector.x, device.RightStick.Vector.y);
-		}
+			aimPosition = new Vector2 (device.RightStick.Vector.x, device.RightStick.Vector.y).normalized;
+		} 
+		//else 
+		//{
+		//	aimPosition = new Vector2 (device.RightStick.Vector.x, device.RightStick.Vector.y);
+		//}
 
         timer += Time.deltaTime;
 

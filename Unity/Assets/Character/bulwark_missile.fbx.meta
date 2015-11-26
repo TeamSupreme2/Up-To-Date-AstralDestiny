@@ -354,7 +354,7 @@ ModelImporter:
       name: NewBulwarkAnim
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 224
+      lastFrame: 270
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -2359,8 +2359,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Death
       takeName: Take 001
-      firstFrame: 215
-      lastFrame: 224
+      firstFrame: 224
+      lastFrame: 255
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

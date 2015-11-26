@@ -16,10 +16,9 @@ public class PlayerStats : MonoBehaviour {
 	public GameObject missile;
 	public float deathTimer;
 
-    PlayerControl playerMovement;
-    WeaponFire playerShooting;
+    private PlayerControl playerMovement;
+    private WeaponFire playerShooting;
 	//private bool isDead = false;
-	//private bool PowerTokenSpawn = false;
 
     // Use this for initialization
     void Start()
@@ -45,9 +44,10 @@ public class PlayerStats : MonoBehaviour {
 			PowerPU.SetActive(true);
 		}
 
-		if (lives <= 0) 
+		if (lives == 0) 
 		{
 			Death();
+			//Destroy(gameObject);
 
 		}
 
@@ -87,9 +87,6 @@ public class PlayerStats : MonoBehaviour {
 
     void Death()
     {
-		//animator.SetBool("isDead", true);
-        //isDead = true;
-		//PowerTokenSpawn = true;
         playerMovement.enabled = false;
         playerShooting.enabled = false;
 
@@ -98,7 +95,6 @@ public class PlayerStats : MonoBehaviour {
 
 	void Respawn()
 	{
-		//animator.SetBool("isDead", false);
 		playerMovement.enabled = true;
 		playerShooting.enabled = true;
 
@@ -106,6 +102,7 @@ public class PlayerStats : MonoBehaviour {
 		healthSlider.value = currentHealth;
 		currentPower = startingPower;
 		powerSlider.value = currentPower;
+
 
 		GameObject.Instantiate(Resources.Load<GameObject>("bulwarkSpawnSparks"), transform.position, transform.rotation);
 	}
