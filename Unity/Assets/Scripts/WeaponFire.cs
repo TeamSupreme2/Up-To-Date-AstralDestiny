@@ -15,6 +15,13 @@ public class WeaponFire : MonoBehaviour {
 	public GameObject superMissile;
 	public Transform origin;
 
+	//Sound
+	public AudioClip missileMove;
+	private AudioSource source;
+	private float volLowRange = 0.5f;
+	private float volHighRange = 1.0f;
+
+
 	//private Ray hit;
     private float timer;
     Transform firePoint;
@@ -34,6 +41,7 @@ public class WeaponFire : MonoBehaviour {
 		SetCountText ();
 
 		lr = GetComponent<LineRenderer> ();
+		source = GetComponent<AudioSource> ();
 
 	}
 	
@@ -65,6 +73,9 @@ public class WeaponFire : MonoBehaviour {
             Shoot();
 			transform.forward = new Vector3 (aimPosition.x, aimPosition.y, 0) - transform.position;
 			Instantiate (projectile, firePointPosition + (aimPosition/2), Quaternion.LookRotation(aimPosition)); 
+
+			float vol = Random.Range(volLowRange, volHighRange);
+			source.PlayOneShot(missileMove, vol);
 
 			ammo = ammo - 1;
 			SetCountText();

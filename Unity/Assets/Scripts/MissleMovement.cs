@@ -12,8 +12,7 @@ public class MissleMovement : MonoBehaviour {
 	void Start () 
 	{
 		rb = GetComponent<Rigidbody2D> ();
-		//playerHealth = playerHealth.GetComponentsInParent<PlayerHealth>();
-		//weaponFire = GetComponent<WeaponFire> ();
+		//source = GetComponent<AudioSource> ();
 	}
 
 	void OnCollisionEnter2D(Collision2D collision)
@@ -31,6 +30,9 @@ public class MissleMovement : MonoBehaviour {
 		GameObject.Instantiate(Resources.Load<GameObject>("RocketExplosion"), transform.position, transform.rotation);
 
 		Destroy (this.gameObject);
+
+
+
 	}
 	// Update is called once per frame
 	void Update () 
